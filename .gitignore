@@ -1,0 +1,18 @@
+# Virtual Environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.joblib_temp/
+
+# Firebase Credentials & Sensitive Configurations
+serviceAccountKey.json
+config/serviceAccountKey.json
+config.json
+config/config.json
+
+# Logs & MCP temporary files
+*.log
+.playwright-mcp/
